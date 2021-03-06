@@ -169,3 +169,47 @@ div {
     transform: translateX(30px);
     border-radius: 50% 0 0 50%;
 }
+
+.pikachu .leg {
+    width: 30px;
+    height: 20px;
+    top: 272px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 2;
+}
+
+.pikachu .leg.left {
+    transform: translateX(-32px);
+    border-radius: 80px 10px 80px 10px;
+    z-index: 2;
+}
+
+.pikachu .leg.right {
+    transform: translateX(32px);
+    border-radius: 10px 80px 10px 80px;
+    z-index: 2;
+}
+
+.pikachu .shadow {
+    width: 128px;
+    height: 12px;
+    background: rgb(213, 213, 213);
+    border-radius: 50%;
+    content: '';
+    top: 288px;
+    left: 50%;
+    margin-left: -64px;
+    z-index: 1;
+}
+
+/* 尾巴 */
+.pikachu .tail {
+    height: 40px; 
+    width: 50px; 
+    border-radius: 10% 30%;
+    z-index: 2;
+    top: 170px;
+    left: 50%;
+    transform: translateX(22px);
+}
