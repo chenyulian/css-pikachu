@@ -22,6 +22,10 @@ body,html {
     font-family: 'Loved by the King', cursive;
 }
 
+div {
+    position: absolute;
+}
+
 .brown { background-color: #452211;}
 .yellow { background-color: #ffd814}
 .yellow-dark { background-color: #e0a100}
@@ -132,4 +136,36 @@ body,html {
 
 .face .blush.right {
     transform: translateX(44px);
+}
+
+/* 身体部分 */
+.pikachu .body {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    height: 105px;
+    width: 130px;
+    margin-left: -65px;
+    border-radius: 80px 80px 40px 40px;
+    z-index: 3;
+}
+
+.pikachu .body .paw {
+    top: 50px; 
+    left: 50%;
+    margin-left: -16px;
+    height: 18px; 
+    width: 32px; 
+    border-bottom: 1px solid #e0a100; 
+    border-top: 1px solid #FFFFFF;
+}
+
+.pikachu .body .paw.left {
+    transform: translateX(-30px);
+    border-radius: 0 50% 50% 0;
+}
+
+.pikachu .body .paw.right {
+    transform: translateX(30px);
+    border-radius: 50% 0 0 50%;
 }
